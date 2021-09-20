@@ -1,24 +1,17 @@
 {
-  "name": "Webpack-Demo",
+  "name": "webpack-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+ "main": "index.js",
+ "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/den-cloud/Webpack-demo.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/den-cloud/Webpack-demo/issues"
-  },
-  "homepage": "https://github.com/den-cloud/Webpack-demo#readme",
+  "license": "MIT",
   "devDependencies": {
-    "webpack": "^5.53.0",
-    "webpack-cli": "^4.8.0"
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
   }
 }
